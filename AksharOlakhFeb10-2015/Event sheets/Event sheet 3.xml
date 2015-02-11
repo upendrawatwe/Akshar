@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="1769078570062953">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="361689079493371" type="System" />
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="5854943427950075" type="Bala">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="8722848945144211" type="Bala">
+                    <param id="0" name="X">119</param>
+                    <param id="1" name="Y">788</param>
+                </action>
+                <action id="2" name="Stop" sid="3348747338888915" type="Varnmala3" />
+                <action id="2" name="Stop" sid="9036254489863507" type="Shabas" />
+                <action id="-3" name="Set position" sid="3571036680166456" type="Shabas">
+                    <param id="0" name="X">800</param>
+                    <param id="1" name="Y">450</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5973998346174295" type="Shabas">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Clear" sid="5051619438726017" type="Array" />
+                <action id="10" name="Insert" sid="6346507706840458" type="Array">
+                    <param id="0" name="Value">&quot;क&quot;</param>
+                    <param id="1" name="Index">1</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6982510335079954" type="Array">
+                    <param id="0" name="Value">&quot;ख&quot;</param>
+                    <param id="1" name="Index">2</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5068306903685326" type="Array">
+                    <param id="0" name="Value">&quot;ग&quot;</param>
+                    <param id="1" name="Index">3</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="3470678859691691" type="Array">
+                    <param id="0" name="Value">&quot;घ&quot;</param>
+                    <param id="1" name="Index">4</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="865546210281621" type="Array">
+                    <param id="0" name="Value">&quot;ङ&quot;</param>
+                    <param id="1" name="Index">5</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5377696477829513" type="Array">
+                    <param id="0" name="Value">&quot;च&quot;</param>
+                    <param id="1" name="Index">6</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1655105730006714" type="Array">
+                    <param id="0" name="Value">&quot;छ&quot;</param>
+                    <param id="1" name="Index">7</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="8169147816865575" type="Array">
+                    <param id="0" name="Value">&quot;ज&quot;</param>
+                    <param id="1" name="Index">8</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6578060046904667" type="Array">
+                    <param id="0" name="Value">&quot;झ&quot;</param>
+                    <param id="1" name="Index">9</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="8485473211782275" type="Array">
+                    <param id="0" name="Value">&quot;ञ&quot;</param>
+                    <param id="1" name="Index">10</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1638786446594103" type="Array">
+                    <param id="0" name="Value">&quot;ट&quot;</param>
+                    <param id="1" name="Index">11</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1887427763772535" type="Array">
+                    <param id="0" name="Value">&quot;ठ&quot;</param>
+                    <param id="1" name="Index">12</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="239099693316484" type="Array">
+                    <param id="0" name="Value">&quot;ड&quot;</param>
+                    <param id="1" name="Index">13</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2279498123086501" type="Array">
+                    <param id="0" name="Value">&quot;ढ&quot;</param>
+                    <param id="1" name="Index">14</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="9260036825851462" type="Array">
+                    <param id="0" name="Value">&quot;ण&quot;</param>
+                    <param id="1" name="Index">15</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="3666685130283087" type="Array">
+                    <param id="0" name="Value">&quot;त&quot;</param>
+                    <param id="1" name="Index">16</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6698404567011859" type="Array">
+                    <param id="0" name="Value">&quot;थ&quot;</param>
+                    <param id="1" name="Index">17</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5669865100078238" type="Array">
+                    <param id="0" name="Value">&quot;द&quot;</param>
+                    <param id="1" name="Index">18</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="4123528816010062" type="Array">
+                    <param id="0" name="Value">&quot;ध&quot;</param>
+                    <param id="1" name="Index">19</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5355616110831912" type="Array">
+                    <param id="0" name="Value">&quot;न&quot;</param>
+                    <param id="1" name="Index">20</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="3319634257321692" type="Array">
+                    <param id="0" name="Value">&quot;प&quot;</param>
+                    <param id="1" name="Index">21</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5943207656231964" type="Array">
+                    <param id="0" name="Value">&quot;फ&quot;</param>
+                    <param id="1" name="Index">22</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6704637524135361" type="Array">
+                    <param id="0" name="Value">&quot;ब&quot;</param>
+                    <param id="1" name="Index">23</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="25789545665492" type="Array">
+                    <param id="0" name="Value">&quot;ष&quot;</param>
+                    <param id="1" name="Index">31</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2150018024447877" type="Array">
+                    <param id="0" name="Value">&quot;भ&quot;</param>
+                    <param id="1" name="Index">24</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5188262481855183" type="Array">
+                    <param id="0" name="Value">&quot;म&quot;</param>
+                    <param id="1" name="Index">25</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="3355259909748475" type="Array">
+                    <param id="0" name="Value">&quot;य&quot;</param>
+                    <param id="1" name="Index">26</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1555751198645844" type="Array">
+                    <param id="0" name="Value">&quot;र&quot;</param>
+                    <param id="1" name="Index">27</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2331181728296464" type="Array">
+                    <param id="0" name="Value">&quot;ल&quot;</param>
+                    <param id="1" name="Index">28</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6181384386681074" type="Array">
+                    <param id="0" name="Value">&quot;व&quot;</param>
+                    <param id="1" name="Index">29</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5077886346050895" type="Array">
+                    <param id="0" name="Value">&quot;श&quot;</param>
+                    <param id="1" name="Index">30</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="4581334509223396" type="Array">
+                    <param id="0" name="Value">&quot;स&quot;</param>
+                    <param id="1" name="Index">32</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1285011964497887" type="Array">
+                    <param id="0" name="Value">&quot;ह&quot;</param>
+                    <param id="1" name="Index">33</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="9789191761745233" type="Array">
+                    <param id="0" name="Value">&quot;ळ&quot;</param>
+                    <param id="1" name="Index">34</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7443055289547699" type="Array">
+                    <param id="0" name="Value">&quot;क्ष&quot;</param>
+                    <param id="1" name="Index">35</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="8125197938927567" type="Array">
+                    <param id="0" name="Value">&quot;ज्ञ&quot;</param>
+                    <param id="1" name="Index">36</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="687769206237501" type="Health">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="2" name="Stop" sid="9638880164439866" type="Health" />
+                <action id="0" name="Set local value" sid="2988814477167603" type="WebStorage">
+                    <param id="0" name="Key">&quot;selected&quot;</param>
+                    <param id="1" name="Value">&quot;0&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4586621443000403" type="Stop">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set local value" sid="8138237281875505" type="WebStorage">
+                    <param id="0" name="Key">&quot;Count&quot;</param>
+                    <param id="1" name="Value">&quot;0&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9676238980486473" type="ReloadLayout">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1486585559269133">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="7569479450763141" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;Yes&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="319707437051629" type="LeftMovement">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1967343496499368" type="RightMovement">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9160480165992032" type="TopMovement">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7746214220118928" type="BottomMovement">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4395501387453763" type="Center">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="2138289225780717">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="1475631890704291" type="Touch">
+                            <param id="0" name="Object">RightMovement</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="3424691531863876" type="Bala">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2332005100146848">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="3694071118425418" type="Touch">
+                            <param id="0" name="Object">LeftMovement</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="2792085763218257" type="Bala">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9040756674763867">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="9206856492539726" type="Touch">
+                            <param id="0" name="Object">TopMovement</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="6991789748973254" type="Bala">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6827850254523768">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="5150080048083896" type="Touch">
+                            <param id="0" name="Object">BottomMovement</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="2925472053643517" type="Bala">
+                            <param id="0" name="Control">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3115606894073704">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="8730775603191573" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;No&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="3029309971774429">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="8860754045899781" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="5376740780967803" type="Bala">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7890314574232254">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="3662122255308472" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="2076298816292608" type="Bala">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2988267314497172">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="6294592349737725" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="7432920893558248" type="Bala">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5763667016758573">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="8650510174674971" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="8089123593964673" type="Bala">
+                            <param id="0" name="Control">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4455400843327903">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4726374583331305" type="Bala">
+                    <param id="0" name="Object">Varnmala3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set local value" sid="8603894473162777" type="WebStorage">
+                    <param id="0" name="Key">&quot;0&quot;</param>
+                    <param id="1" name="Value">Varnmala3.AnimationFrame </param>
+                </action>
+                <action id="0" name="Set local value" sid="4526319548050032" type="WebStorage">
+                    <param id="0" name="Key">&quot;selected&quot;</param>
+                    <param id="1" name="Value">Varnmala3.AnimationFrame</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="2939351967095538" type="Varnmala3">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="9" name="Set scale" sid="2166059336904148" type="Varnmala3">
+                    <param id="0" name="Scale">1.25</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="5366298014978928" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">Array.At(int(WebStorage.LocalValue(&quot;0&quot;)))</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action behavior="Flash" id="1" name="Stop flashing" sid="7261728465082605" type="Varnmala3" />
+                <action id="-9" name="Destroy" sid="4271619838472471" type="Varnmala3" />
+                <action id="2" name="Remove local value" sid="2504850477479849" type="WebStorage">
+                    <param id="0" name="Key">&quot;0&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="3055039604871732" type="Health">
+                    <param id="0" name="Frame number">floor(int(WebStorage.LocalValue(&quot;selected&quot;)) / 5) +4</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="3679367336838414" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;coins-drop&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="2" name="Stop" sid="4227286408976299" type="Health" />
+                <action id="0" name="Set text" sid="3973430709178051" type="Text">
+                    <param id="0" name="Text">str((int(WebStorage.LocalValue(&quot;Count&quot;)) /1000 + 1)*1000)</param>
+                </action>
+                <action id="0" name="Set local value" sid="7179927870754391" type="WebStorage">
+                    <param id="0" name="Key">&quot;Count&quot;</param>
+                    <param id="1" name="Value">str(int(WebStorage.LocalValue(&quot;Count&quot;)) + 1)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="666233018632789">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3009348148769313" type="Bala">
+                    <param id="0" name="Object">Stop</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="1243059446398124" type="Stop">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7286076184061746" type="Health">
+                    <param id="0" name="Frame number">Health.AnimationFrame  -2</param>
+                </action>
+                <action id="-8" name="Set angle" sid="2323686256757554" type="Bala">
+                    <param id="0" name="Angle">180</param>
+                </action>
+                <action id="0" name="Set text" sid="2127437759898033" type="Text">
+                    <param id="0" name="Text">str((int(WebStorage.LocalValue(&quot;Count&quot;)) /1000 - 1)*1000)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5384439493009602">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="3386506551392279" type="System">
+                    <param id="0" name="First value">int(WebStorage.LocalValue(&quot;Count&quot;))</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">36</param>
+                </condition>
+                <condition id="7" name="Compare key value (as number)" sid="3687578832419839" type="WebStorage">
+                    <param id="0" name="Key">&quot;Count&quot;</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">36000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="9214022443928579" type="Bala" />
+                <action id="-15" name="Set visible" sid="7022897684972169" type="Shabas">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="9567741193478648" type="Shabas">
+                    <param id="0" name="Animation">&quot;Shabas&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="2" name="Stop" sid="3474876492628684" type="Shabas" />
+                <action behavior="Bullet" id="5" name="Set enabled" sid="7953158618628175" type="Bala">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Pathfinding" id="2" name="Stop" sid="967423124251174" type="Bala" />
+            </actions>
+        </event-block>
+        <event-block sid="8377653740288515">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="3404292984931649" type="System">
+                    <param id="0" name="First value">int(WebStorage.LocalValue(&quot;Count&quot;))</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">36</param>
+                </condition>
+                <condition id="7" name="Compare key value (as number)" sid="8112896175207814" type="WebStorage">
+                    <param id="0" name="Key">&quot;Count&quot;</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">36000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="1280130343095691" type="Bala" />
+                <action id="-15" name="Set visible" sid="4986452771018917" type="Shabas">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5007527722274538" type="Sprite6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="6860025423601734" type="Bala">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Pathfinding" id="2" name="Stop" sid="2449593635414963" type="Bala" />
+                <action id="-15" name="Set visible" sid="4409530079938195" type="ReloadLayout">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1173883731134138">
+            <conditions>
+                <condition id="3" name="On touched object" sid="962415421388888" type="Touch">
+                    <param id="0" name="Object">ReloadLayout</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="5461613890363135" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="432553081747951">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="596187682422571" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ReloadLayout</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="6011219117183342" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="1176587665072498">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="583929972804237" type="Touch">
+                    <param id="0" name="Object">ToLayout4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8740868960095879" type="System">
+                    <param id="0" name="Layout">Layout 4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4125580778668019">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7533566818327328" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ToLayout4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6436341099981568" type="System">
+                    <param id="0" name="Layout">Layout 4</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

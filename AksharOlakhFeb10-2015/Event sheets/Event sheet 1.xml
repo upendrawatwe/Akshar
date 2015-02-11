@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="6488884749671154">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7588269876647693" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Turret" id="5" name="Set enabled" sid="5069670570205904" type="Turret">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="3663518441214219" type="Turret">
+                    <param id="0" name="X">800</param>
+                    <param id="1" name="Y">800</param>
+                </action>
+                <action id="-8" name="Set angle" sid="5942156047604548" type="Turret">
+                    <param id="0" name="Angle">270</param>
+                </action>
+                <action id="10" name="Insert" sid="6257917842588302" type="Array">
+                    <param id="0" name="Value">&quot;अ&quot;</param>
+                    <param id="1" name="Index">0</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7205986352058329" type="Array">
+                    <param id="0" name="Value">&quot;आ&quot;</param>
+                    <param id="1" name="Index">1</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1407968776959966" type="Array">
+                    <param id="0" name="Value">&quot;इ&quot;</param>
+                    <param id="1" name="Index">2</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="8836904889014461" type="Array">
+                    <param id="0" name="Value">&quot;ई&quot;</param>
+                    <param id="1" name="Index">3</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="8187377805388212" type="Array">
+                    <param id="0" name="Value">&quot;उ&quot;</param>
+                    <param id="1" name="Index">4</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="298214704329671" type="Array">
+                    <param id="0" name="Value">&quot;ऊ&quot;</param>
+                    <param id="1" name="Index">5</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2117841254422914" type="Array">
+                    <param id="0" name="Value">&quot;ऍ&quot;</param>
+                    <param id="1" name="Index">6</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7219669389813603" type="Array">
+                    <param id="0" name="Value">&quot;ऎ&quot;</param>
+                    <param id="1" name="Index">7</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5516029491377203" type="Array">
+                    <param id="0" name="Value">&quot;ए&quot;</param>
+                    <param id="1" name="Index">8</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6775940555339574" type="Array">
+                    <param id="0" name="Value">&quot;ऐ&quot;</param>
+                    <param id="1" name="Index">9</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6612044391653902" type="Array">
+                    <param id="0" name="Value">&quot;ऒ&quot;</param>
+                    <param id="1" name="Index">10</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6886307550710592" type="Array">
+                    <param id="0" name="Value">&quot;ओ&quot;</param>
+                    <param id="1" name="Index">11</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="57374910176402" type="Array">
+                    <param id="0" name="Value">&quot;औ&quot;</param>
+                    <param id="1" name="Index">12</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6573619728268104" type="Array">
+                    <param id="0" name="Value">&quot;अं&quot;</param>
+                    <param id="1" name="Index">13</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="8347495899321321" type="Array">
+                    <param id="0" name="Value">&quot;अः&quot;</param>
+                    <param id="1" name="Index">14</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7886589093238406" type="Array">
+                    <param id="0" name="Value">&quot;ऑ&quot;</param>
+                    <param id="1" name="Index">15</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3147988804537307" type="Health">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="2" name="Stop" sid="543543543207136" type="Health" />
+                <action id="-15" name="Set visible" sid="1263196557398827" type="ToLayout2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9519883217077217" type="ReloadLayout1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3759882767263802">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="4166136174098418" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;No&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="933953863708008">
+                    <conditions>
+                        <condition id="1" name="On any click" sid="4585697643952631" type="Mouse" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="3813398130899538" type="Sight">
+                            <param id="0" name="X">Mouse.X</param>
+                            <param id="1" name="Y">Mouse.Y</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="3579222001526912" type="Sight">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action behavior="Turret" id="0" name="Acquire target" sid="9519766911643485" type="Turret">
+                            <param id="0" name="Target">Sight</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9900503456742021">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="1187667059740254" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">ToLayout2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="2739544933508103" type="Shabas">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-43" name="Go to next/previous layout" sid="1843713589744146" type="System">
+                            <param id="0" name="Which">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1184626074411212">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="6930301846421904" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;Yes&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2821045780762709">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="8694925218758559" type="Touch">
+                            <param id="0" name="Object">Letter</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="9850062802470623" type="Sight">
+                            <param id="0" name="X">Touch.X</param>
+                            <param id="1" name="Y">Touch.Y</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="3946924799883368" type="Sight">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action behavior="Turret" id="0" name="Acquire target" sid="1696109323806836" type="Turret">
+                            <param id="0" name="Target">Sight</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4711416949744916">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="9643700898300904" type="Touch">
+                            <param id="0" name="Object">ToLayout2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="1680022507752865" type="Shabas">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-43" name="Go to next/previous layout" sid="6458572939823905" type="System">
+                            <param id="0" name="Which">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="7998130809158217">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8577439116061693" type="Sight">
+                    <param id="0" name="Object">Letter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6646742057157963" type="Letter">
+                    <param id="0" name="Scale">1.25</param>
+                </action>
+                <action behavior="Turret" id="5" name="Set enabled" sid="1117473844458464" type="Turret">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Turret" id="0" name="Acquire target" sid="3066526161202736" type="Turret">
+                    <param id="0" name="Target">Sight</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4530563489003476">
+            <conditions>
+                <condition behavior="Turret" id="1" name="On shoot" sid="5297850162013037" type="Turret" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="6809846119669305" type="Ball">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="3379947382445753" type="Ball">
+                    <param id="0" name="Angle">Turret.Angle</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="7761661828906585" type="Turret">
+                    <param id="0" name="Object">Ball</param>
+                    <param id="1" name="Layer">&quot;Main&quot;</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="486032102124773" type="Ball">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="1275656813332428" type="Ball">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="9005645347421506">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7840408953259796" type="Ball">
+                    <param id="0" name="Object">Letter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set local value" sid="5893921887647481" type="WebStorage">
+                    <param id="0" name="Key">&quot;0&quot;</param>
+                    <param id="1" name="Value">Letter.AnimationFrame</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="8974757290535898" type="Letter">
+                    <param id="0" name="&apos;On&apos; time">0.5</param>
+                    <param id="1" name="&apos;Off&apos; time">0.5</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="1136343396555049" type="Letter">
+                    <param id="0" name="&apos;On&apos; time">0.2</param>
+                    <param id="1" name="&apos;Off&apos; time">0.2</param>
+                    <param id="2" name="Duration">1.2</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="6941332485671879" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">Array.At(int(WebStorage.LocalValue(&quot;0&quot;)))</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9022480559885376" type="Letter" />
+                <action id="-9" name="Destroy" sid="6886942970764206" type="Ball" />
+                <action id="0" name="Spawn another object" sid="8585005488935109" type="Turret">
+                    <param id="0" name="Object">Ball</param>
+                    <param id="1" name="Layer">&quot;Main&quot;</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+                <action behavior="Turret" id="2" name="Clear targets" sid="5794698376927422" type="Turret" />
+            </actions>
+        </event-block>
+        <event-block sid="6903195134526111">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4264299353950391" type="Ball">
+                    <param id="0" name="Object">Wall</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3084787603761893" type="Ball" />
+            </actions>
+        </event-block>
+        <event-block sid="4441401873400327">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="3930705455151217" type="Letter" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7396242944402556" type="Health">
+                    <param id="0" name="Frame number">Health.AnimationFrame + 1</param>
+                </action>
+                <action id="2" name="Stop" sid="6590874426980774" type="Health" />
+                <action id="7" name="Play (by name)" sid="3394706942648212" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;coins-drop&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4300051830955907">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="4968292027185031" type="Health">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Turret" id="5" name="Set enabled" sid="9821022823635619" type="Turret">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2462755942623217" type="Shabas">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="4854349153742264" type="Shabas">
+                    <param id="0" name="Animation">&quot;Shabas&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="2" name="Stop" sid="2187215278310758" type="Turret" />
+                <action id="7" name="Play (by name)" sid="2005906078110128" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;shabas&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="841003824736383" type="ToLayout2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8144778506362427" type="ReloadLayout1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5882539004998042">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8292889797980164" type="Touch">
+                    <param id="0" name="Object">ReloadLayout1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="8228017187050135" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="7507502158422794">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7457255000699599" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ReloadLayout1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="5217742026845948" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu Event sheet</name>
+    <events>
+        <event-block sid="1225243043533343">
+            <conditions>
+                <condition id="3" name="On touched object" sid="788111056419643" type="Touch">
+                    <param id="0" name="Object">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set local value" sid="4614527293960648" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Value">&quot;Yes&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="8130615963561804" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2047970978486253">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7125733487210048" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set local value" sid="8400677452297781" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Value">&quot;No&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="3375345325709381" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3041134136546135">
+            <conditions>
+                <condition id="1" name="On any key pressed" sid="4541181095305995" type="Keyboard" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set local value" sid="2557365448788484" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Value">&quot;No&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9283843914073943" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

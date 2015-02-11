@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="9527394268224028">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2710477669993695" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="1779095409021774" type="Varn" />
+                <action id="-8" name="Set angle" sid="9619200147593886" type="Balya">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action id="10" name="Insert" sid="9009867095621419" type="Array">
+                    <param id="0" name="Value">&quot;क&quot;</param>
+                    <param id="1" name="Index">1</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5303261353147221" type="Array">
+                    <param id="0" name="Value">&quot;ख&quot;</param>
+                    <param id="1" name="Index">2</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7068695296388887" type="Array">
+                    <param id="0" name="Value">&quot;ग&quot;</param>
+                    <param id="1" name="Index">3</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2832314479535217" type="Array">
+                    <param id="0" name="Value">&quot;घ&quot;</param>
+                    <param id="1" name="Index">4</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2066304870888487" type="Array">
+                    <param id="0" name="Value">&quot;ङ&quot;</param>
+                    <param id="1" name="Index">5</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1370229533841574" type="Array">
+                    <param id="0" name="Value">&quot;च&quot;</param>
+                    <param id="1" name="Index">6</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7562235770823575" type="Array">
+                    <param id="0" name="Value">&quot;छ&quot;</param>
+                    <param id="1" name="Index">7</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="6599059297907696" type="Array">
+                    <param id="0" name="Value">&quot;ज&quot;</param>
+                    <param id="1" name="Index">8</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="8635291625556934" type="Array">
+                    <param id="0" name="Value">&quot;झ&quot;</param>
+                    <param id="1" name="Index">9</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2295305300810577" type="Array">
+                    <param id="0" name="Value">&quot;ञ&quot;</param>
+                    <param id="1" name="Index">10</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="2027445077658133" type="Health">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="2" name="Stop" sid="1943914688938665" type="Health" />
+                <action id="-15" name="Set visible" sid="7980049228347173" type="ToLayout3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="10557509463918" type="Shabas">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3514722055890531" type="ReloadLayout">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8909145455007863">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="3871893267287644" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;Yes&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="2636728225813303" type="LeftMovement">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4468505160261752" type="RightMovement">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5717525026213622" type="TopMovement">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1577296774898287" type="BottomMovement">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3563040448589067" type="Center">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="737002839387004">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="6580677419369462" type="Touch">
+                            <param id="0" name="Object">LeftMovement</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="488240462200406" type="Balya">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6643355378464982">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="9165847318021094" type="Touch">
+                            <param id="0" name="Object">RightMovement</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="9141363359752008" type="Balya">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2013684453237242">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="7463469488435181" type="Touch">
+                            <param id="0" name="Object">TopMovement</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="8205201222556233" type="Balya">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7607837583056998">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="1422487645765976" type="Touch">
+                            <param id="0" name="Object">BottomMovement</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="5627267891970051" type="Balya">
+                            <param id="0" name="Control">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="8957043494997042">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="6024365844468298" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;No&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="5442256576976064" type="LeftMovement">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1634346740301903" type="RightMovement">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1242805007996668" type="TopMovement">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5640000739837066" type="BottomMovement">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1412751545026773" type="Center">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="5235440892291883">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="4996109092630787" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="508889827521858" type="Balya">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6740228731783616">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="4520730853403596" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="3111805429021272" type="Balya">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9698501694946394">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="1939025492585197" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="8514004282526388" type="Balya">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8628274266129383">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="378803811579825" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="839858179143497" type="Balya">
+                            <param id="0" name="Control">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3052834772470994">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="9803810309726506" type="Balya">
+                    <param id="0" name="Object">Varn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set local value" sid="9422730986129152" type="WebStorage">
+                    <param id="0" name="Key">&quot;0&quot;</param>
+                    <param id="1" name="Value">varn.AnimationFrame</param>
+                </action>
+                <action id="9" name="Set scale" sid="8341604728486747" type="Varn">
+                    <param id="0" name="Scale">1.25</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="4659926125626305" type="Varn">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="9052176364450089" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">Array.At(int(WebStorage.LocalValue(&quot;0&quot;)))</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action behavior="Flash" id="1" name="Stop flashing" sid="9767246067113798" type="Varn" />
+                <action id="-9" name="Destroy" sid="831651048277614" type="Varn" />
+                <action id="2" name="Remove local value" sid="1087509623396133" type="WebStorage">
+                    <param id="0" name="Key">&quot;0&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="2440718869046506" type="Health">
+                    <param id="0" name="Frame number">Health.AnimationFrame + 2</param>
+                </action>
+                <action id="2" name="Stop" sid="8507439459236283" type="Health" />
+                <action id="7" name="Play (by name)" sid="1250666631802277" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;coins-drop&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9359391527608037">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="9161306351130917" type="Health">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="4922312578849547" type="Shabas">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="8195591112380174" type="Shabas">
+                    <param id="0" name="Animation">&quot;Shabas&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="4091469119858196" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;shabas&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3906015838907522" type="ToLayout3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1582608189831014" type="ReloadLayout">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="197068070419816">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2814190296117121" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ToLayout3</param>
+                </condition>
+                <condition id="6" name="Compare key value (as text)" sid="9003238735506359" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;No&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="9746711351169043" type="Shabas">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-43" name="Go to next/previous layout" sid="5142987600742521" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3804018433890202">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="6763286679872575" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;Yes&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+                <condition id="4" name="Is touching object" sid="4138023463916003" type="Touch">
+                    <param id="0" name="Object">RightMovement</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="7983558768586685" type="Balya">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7424724395573723">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="578690311377042" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;Yes&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+                <condition id="4" name="Is touching object" sid="4358660633256601" type="Touch">
+                    <param id="0" name="Object">LeftMovement</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="9038260905484516" type="Balya">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1693944630075848">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="487426645116218" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;Yes&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+                <condition id="4" name="Is touching object" sid="1081881006948294" type="Touch">
+                    <param id="0" name="Object">TopMovement</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="2031620087968577" type="Balya">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7397034417599323">
+            <conditions>
+                <condition id="6" name="Compare key value (as text)" sid="1518671234930654" type="WebStorage">
+                    <param id="0" name="Key">&quot;isTouchDevice&quot;</param>
+                    <param id="1" name="Text to compare">&quot;Yes&quot;</param>
+                    <param id="2" name="Case sensitivity">0</param>
+                </condition>
+                <condition id="4" name="Is touching object" sid="8182907279651635" type="Touch">
+                    <param id="0" name="Object">BottomMovement</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="8861590589810341" type="Balya">
+                    <param id="0" name="Control">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7060594634820586">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1813025356764953" type="Touch">
+                    <param id="0" name="Object">ReloadLayout</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="8124524856867529" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="3285761509590371">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6658930223446079" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ReloadLayout</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="114056968516061" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
